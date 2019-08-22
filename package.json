@@ -1,0 +1,13 @@
+{
+    "id": "franz-recipe-owa",
+    "name": "Office 365 Outlook Web App",
+    "version": "1.0.0",
+    "description": "Office 365 Outlook Web App",
+    "main": "index.js",
+    "author": "Jason White <jdwhite@menelos.com>",
+    "repository": "https://github.com/jdwhite/franz-recipe-owa",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://outlook.office365.com/owa"
+    }
+}
