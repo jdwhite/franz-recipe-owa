@@ -4,7 +4,7 @@ module.exports = Franz => {
   const getMessages = () => {
     var unread = 0;
 
-	[].forEach.call(
+    [].forEach.call(
       document.querySelectorAll('div[role="treeitem"][aria-level="2"]'),
       function (el) {
         var el_folder = el.querySelector('span');
